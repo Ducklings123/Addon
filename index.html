@@ -70,6 +70,13 @@
             50% { transform: rotate(-35deg) scale(1.1); }
         }
 
+        .made-by {
+            font-style: italic;
+            opacity: 0.8;
+            margin-right: 1rem;
+            font-size: 0.9rem;
+        }
+
         nav {
             display: none; /* Hiding the navigation options */
         }
@@ -286,6 +293,15 @@
             
             .header-buttons {
                 margin-top: 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+            }
+            
+            .made-by {
+                margin-right: 0;
+                margin-bottom: 0.5rem;
             }
             
             main {
@@ -318,6 +334,7 @@
                 <h1>Minecraft Bedrock Addons Hub</h1>
             </div>
             <div class="header-buttons">
+                <span class="made-by">Made by Andy</span>
                 <a href="https://www.mediafire.com/file/mb0tuqcm2p562qh/UI_Upgrade.mcaddon/file" class="experiments-btn" target="_blank">Experiments</a>
             </div>
         </header>
@@ -402,6 +419,38 @@
                     description: "Add beautiful furniture to your Minecraft Bedrock world to enhance your builds.",
                     downloadUrl: "https://www.mediafire.com/folder/qn01rc7bybpds/Furniture",
                     requiresExperiments: false
+                },
+                {
+                    name: "Better on Bedrock",
+                    type: "Add-On",
+                    version: "1.0",
+                    description: "Enhances the Bedrock edition with various improvements and features.",
+                    downloadUrl: "https://www.mediafire.com/file/mkjobdivsb2ho89/Better-on-Bedrock-v1.0-r.mcaddon/file",
+                    requiresExperiments: true
+                },
+                {
+                    name: "Biomes Beyond",
+                    type: "Add-On",
+                    version: "0.3.0-beta",
+                    description: "Expand your Minecraft world with new and exciting biomes to explore.",
+                    downloadUrl: "https://www.mediafire.com/file/l46mtke0d0lqt79/Biomes__Beyond_%255Bv0.3.0-beta%255D.mcaddon/file",
+                    requiresExperiments: true
+                },
+                {
+                    name: "Multi Backpack",
+                    type: "Add-On",
+                    version: "1.7",
+                    description: "Add multiple backpacks to store and organize your items while exploring.",
+                    downloadUrl: "https://www.mediafire.com/folder/9ubn7kxmd4byo/Multi+Backpack",
+                    requiresExperiments: true
+                },
+                {
+                    name: "Hammer Time",
+                    type: "Add-On",
+                    version: "1.0",
+                    description: "Add powerful hammers to your Minecraft world with special abilities.",
+                    downloadUrl: "https://www.mediafire.com/folder/5ur4cts8kl7pe/Hammer+Time",
+                    requiresExperiments: true
                 }
             ]
         };
